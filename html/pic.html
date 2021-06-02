@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="http://localhost:3001/css/pic.css"/>
+    </head>
+    <body>
+        
+        <h1 class="title">日记</h1>
+        
+        
+        <textarea  action="/" method="GET" disabled>
+            
+        </textarea>
+
+
+        <!-- <form method="POST" action="action.js" class="search">
+            <input type="text" placeholder="search"/>
+            <input type="submit" value="search">  
+        </form> -->
+        
+        
+        <form action="/upload" method="POST" class="upload">
+            <div style="position: relative;">
+                <input type="text" placeholder="text" name="text" value="" />
+                <input type="submit" value="Sbumit" />
+            </div>
+        </form>
+
+        <form action="/upload" method="GET" class="delet">
+            <button>获取</button>
+        </form>
+        <!-- <form action="/pic" class="delet">
+            <div style="position: relative;">
+                <div style="text-align: center">
+                    <span style="font-size: 12px;">删除</span>
+                    <img id="upload" src="/images/gif2.png" style="width: 40px; height: 40px; vertical-align: middle;" />
+                </div>
+            </div>
+        </form> -->
+        <form action="/" class="delet">
+            <div style="position: relative;">
+                <div style="text-align: center">
+                    <button>登出</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
