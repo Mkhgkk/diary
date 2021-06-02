@@ -1,34 +1,28 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="http://localhost:3001/css/pic.css"/>
-    </head>
-    <body>
-        
-        <h1 class="title">日记</h1>
-        
-        
-        <textarea  action="/" method="GET" disabled>
-            
-        </textarea>
+  <head>
+    <link rel="stylesheet" href="http://119.3.181.39/css/pic.css" />
+  </head>
+  <body>
+    <h1 class="title">日记</h1>
 
+    <textarea action="/" method="GET" disabled> </textarea>
 
-        <!-- <form method="POST" action="action.js" class="search">
+    <!-- <form method="POST" action="action.js" class="search">
             <input type="text" placeholder="search"/>
             <input type="submit" value="search">  
         </form> -->
-        
-        
-        <form action="/upload" method="POST" class="upload">
-            <div style="position: relative;">
-                <input type="text" placeholder="text" name="text" value="" />
-                <input type="submit" value="Sbumit" />
-            </div>
-        </form>
 
-        <form action="/upload" method="GET" class="delet">
-            <button>获取</button>
-        </form>
-        <!-- <form action="/pic" class="delet">
+    <form action="/upload" method="POST" class="upload">
+      <div style="position: relative">
+        <input type="text" placeholder="text" name="text" value="" />
+        <input type="submit" value="Sbumit" />
+      </div>
+    </form>
+
+    <form action="/upload" method="GET" class="delet">
+      <button>获取</button>
+    </form>
+    <!-- <form action="/pic" class="delet">
             <div style="position: relative;">
                 <div style="text-align: center">
                     <span style="font-size: 12px;">删除</span>
@@ -36,12 +30,12 @@
                 </div>
             </div>
         </form> -->
-        <form action="/" class="delet">
-            <div style="position: relative;">
-                <div style="text-align: center">
-                    <button>登出</button>
-                </div>
-            </div>
-        </form>
-    </body>
+    <form action="/" class="delet">
+      <div style="position: relative">
+        <div style="text-align: center">
+          <button>登出</button>
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
